@@ -2,10 +2,10 @@ version: "3.8"
 
 services:
   app:
-    image: mcr.microsoft.com/devcontainers/php:3-8.5-trixie
+    build: .
     volumes:
       - ..:/workspace:cached
-      - ./php.ini:/usr/local/etc/php/conf.d/zz-php.ini
+      - ./php.ini:/usr/local/etc/php/php.ini
     depends_on:
       - db
     networks:
