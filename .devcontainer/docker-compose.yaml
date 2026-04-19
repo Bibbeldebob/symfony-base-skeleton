@@ -6,6 +6,7 @@ services:
     volumes:
       - ..:/workspace:cached
       - ./php.ini:/usr/local/etc/php/php.ini
+      - ./php-xdebug.ini:/usr/local/etc/php/conf.d/zz-xdebug-php.ini
     depends_on:
       - db
     networks:
