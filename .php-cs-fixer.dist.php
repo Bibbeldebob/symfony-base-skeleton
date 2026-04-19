@@ -30,7 +30,6 @@ return (new Config())
         'ordered_imports' => true,
 
         // Sauberer Code
-        'no_extra_blank_lines' => true,
         'single_quote' => true,
         'no_extra_blank_lines' => true,
         'no_trailing_whitespace' => true,

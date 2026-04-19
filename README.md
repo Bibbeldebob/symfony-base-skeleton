@@ -21,6 +21,12 @@ cd my-app
 composer install
 vendor/bin/phpunit
 ```
+Wenn du den Symfony-Webserver für die Entwicklung nutzen möchtest, installiere zuerst das lokale CA-Zertifikat und starte den Server:
+
+```bash
+symfony server:ca:install
+symfony server:start
+```
 
 Tipp: Öffne das Projekt im Zielverzeichnis im VS Code-Devcontainer (\`.devcontainer\`), damit die Entwicklungsumgebung und PHP-Version konsistent sind.
 

@@ -28,7 +28,8 @@
                 "GitHub.vscode-pull-request-github",
                 "GitHub.copilot-chat",
                 "SanderRonde.phpstan-vscode",
-                "redhat.vscode-yaml"
+                "redhat.vscode-yaml",
+                "mblode.twig-language-2"
             ]
         }
     }
