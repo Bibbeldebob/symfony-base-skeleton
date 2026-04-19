@@ -46,7 +46,8 @@
         "phpunit/phpunit": "^13.0",
         "phpstan/phpstan": "^2.1",
         "rector/rector": "^2.3",
-        "friendsofphp/php-cs-fixer": "^3.94"
+        "friendsofphp/php-cs-fixer": "^3.94",
+        "symfony/debug-bundle": "^8.0"
     },
     "scripts": {
         "unit": "vendor/bin/phpunit",
